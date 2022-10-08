@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+.bodyHead {
+    width: 98%;
+    margin: auto;
+    margin-top: 15px;
+    color: red;
+    background: #fff;
+    height: 50px;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bodyheadone {
+    width: 300px;
+    display: flex;
+    gap: 10px;
+}
+
+.corospondingProfile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.profilename {
+
+    color: rgb(56, 56, 56);
+}
+
+.menuIcon {
+    font-size: 30px !important;
+    color: rgb(175, 45, 175);
+    cursor: pointer;
+}
+
+.wrp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.status {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: rgb(6, 241, 6);
+}
+
+.ohtersserchandIcon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.ChatSerch {
+    display: flex;
+    align-items: center;
+}
+
+.srIcon {
+    position: absolute;
+    z-index: 1;
+    margin-left: 10px;
+    color: rgb(59, 59, 59);
+}
+
+.secrchC {
+    position: relative;
+}

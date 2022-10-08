@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sigleAsideProfile {
+    background: rgb(246, 244, 244);
+    border-radius: 7px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    gap: 8px;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.sigleAsideProfile:hover {
+    background: rgb(215, 203, 215);
+}
+
+.profileTitleWrp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.profileTitle {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.profileTitle>h3 {
+    color: rgb(47, 47, 47);
+}
+
+.statusS {
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    background: rgb(6, 241, 6);
+}
+
+.subTitle {
+    word-wrap: break-word !important;
+    color: rgb(136, 136, 136);
+    font-weight: 500;
+
+}
+
+.profileActive {
+    background: rgb(215, 203, 215);
+}

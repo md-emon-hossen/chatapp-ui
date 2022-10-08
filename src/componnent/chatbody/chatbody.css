@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.chatbodyWrper{
+    flex:6;
+    height: 97vh;
+    border-radius:10px;
+    margin: 10px 10px 10px 5px;    
+}
