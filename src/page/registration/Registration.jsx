@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { UseAuth } from '../../context/AuthContext';
 import './registration.css';
 
 const Registration = () => {
@@ -14,24 +15,21 @@ const Registration = () => {
     const [file, setfile] = useState('');
     const [loding, setloding] = useState(false);
     const navigate = useNavigate();
+    const { signup, currentUser } = UseAuth();
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(typeof file);
         if (password === conpass && file !== '') {
 
             //sign up preccess//
-
-
-
-
-            setloding(true);
-            setname('');
-            setemail('');
-            setpassword('');
-            setconpass('');
-            setfile('');
-            navigate('/');
+            try {
+                setloding(true);
+                signup(email, password, name);
+                navigate('/');
+            } catch (err) {
+                console.log(err);
+                toast.error("SignUp failed");
+            }
 
         } else {
             if (password !== conpass) {
