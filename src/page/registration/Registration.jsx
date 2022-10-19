@@ -27,7 +27,6 @@ const Registration = () => {
                 signup(email, password, name);
                 navigate('/');
             } catch (err) {
-                console.log(err);
                 toast.error("SignUp failed");
             }
 
