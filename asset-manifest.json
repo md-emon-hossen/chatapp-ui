@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/md-emon-hossen.github.io/chatapp-ui/static/css/main.d12211db.css",
+    "main.js": "/md-emon-hossen.github.io/chatapp-ui/static/js/main.3ed2c94c.js",
+    "static/js/787.7ea0274a.chunk.js": "/md-emon-hossen.github.io/chatapp-ui/static/js/787.7ea0274a.chunk.js",
+    "index.html": "/md-emon-hossen.github.io/chatapp-ui/index.html",
+    "main.d12211db.css.map": "/md-emon-hossen.github.io/chatapp-ui/static/css/main.d12211db.css.map",
+    "main.3ed2c94c.js.map": "/md-emon-hossen.github.io/chatapp-ui/static/js/main.3ed2c94c.js.map",
+    "787.7ea0274a.chunk.js.map": "/md-emon-hossen.github.io/chatapp-ui/static/js/787.7ea0274a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d12211db.css",
+    "static/js/main.3ed2c94c.js"
+  ]
+}
